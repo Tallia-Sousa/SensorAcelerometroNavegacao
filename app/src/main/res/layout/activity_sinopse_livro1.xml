@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eb82a3"
+    android:padding="16dp"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/voltar"
+        android:layout_width="15dp"
+        android:layout_height="25dp"
+        android:src="@drawable/fl"
+        android:layout_marginTop="-161dp"
+
+        android:gravity="center_vertical"
+        />
+
+
+    <!-- Título e sinopse do livro 1 -->
+    <TextView
+        android:id="@+id/textViewTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A lenda de Korra: Guerra territorial"
+        android:textSize="20sp"
+        android:textColor="#f7fefa"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewSynopsis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Após vencer uma terrível adversária e abrir um portal para o mundo espiritual, Korra enfrenta novos desafios na Cidade República. O novo portal está ameaçado, cidadãos estão desabrigados e uma nova guerra está prestes a eclodir. Korra e Asami se unem para enfrentar os obstáculos, enquanto o caos se espalha. Essa graphic novel escrita por Michael Dante DiMartino e ilustrada por Irene Koh acompanha a eletrizante jornada dos personagens, com consultoria de Bryan Konietz"
+        android:textSize="16sp"
+        android:textColor="#f7fefa"
+        android:layout_below="@id/textViewTitle1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Título e sinopse do livro 2 -->
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trono De Vidro"
+        android:textSize="20sp"
+        android:textColor="#f7fefa"
+        android:layout_below="@id/textViewSynopsis1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewSynopsis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uma assassina oferecida liberdade em um reino cruel. Ela compete em uma competição perigosa, mas forças malignas ameaçam o evento. Celaena embarca em uma jornada para desvendar segredos e salvar sua vida. Com elementos de fantasia e suspense, Sarah J. Maas apresenta uma narrativa cativante em um mundo onde a magia é proibida e o poder é cobiçado. A premissa intrigante questiona: e se Cinderela fosse uma assassina?"
+        android:textSize="16sp"
+        android:textColor="#f7fefa"
+        android:layout_below="@id/textViewTitle2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
+    <!-- Título e sinopse do livro 3 -->
+    <TextView
+        android:id="@+id/textViewTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabrina Spellman"
+        android:textSize="20sp"
+        android:textColor="#f7fefa"
+        android:layout_below="@id/textViewSynopsis2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewSynopsis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabrina Spellman, prestes a completar 16 anos, se vê diante de uma escolha entre seu destino sobrenatural e seu namorado humano, Harvey. Enquanto isso, sua família enfrenta a ameaça de Madame Satã, uma antiga inimiga. Escrito por Roberto Aguirre-Sacasa e ilustrado por Robert Hack, este reinventado conto de Sabrina adolescente promete arrepiar os fãs do gênero com uma trama empolgante e sombria."
+        android:textColor="#f7fefa"
+        android:layout_below="@id/textViewTitle3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
+    <!-- Imagens dos botões -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="266dp">
+
+
+        <ImageView
+            android:id="@+id/s1"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/s1"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/s2"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/s2"
+            android:layout_marginStart="8dp"/>
+
+        <ImageView
+            android:id="@+id/s3"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/s3"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</RelativeLayout>
